@@ -1,0 +1,17 @@
+{
+  "name": "server",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@chargily/chargily-pay": "^2.1.0",
+    "@types/body-parser": "^1.19.5",
+    "@types/express": "^5.0.0",
+    "express": "^4.21.1"
+  }
+}
